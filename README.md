@@ -6,7 +6,7 @@ O **UniversoMob** é um sistema simples para cadastro e consulta de clientes, de
 - Consulta de clientes cadastrados.
 - Informação sobre a posse de máquinas e integrações.
 
-### Melhorias Propostas
+### Melhorias a serem entregues:
 1. **Quantificação de Máquinas e Integrações**: Além de informar se o cliente possui máquinas e integrações, incluir a quantidade de cada um.
 2. **Edição de Cadastro**: Permitir a edição dos dados dos clientes já cadastrados.
 3. **Filtro de Busca**: Implementar filtros avançados para facilitar a busca de clientes (por nome, cidade, status, etc.).
