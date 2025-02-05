@@ -1,66 +1,43 @@
-# Cliente Mob
-
 ## Sobre o Projeto
-UniversoMob é um sistema simples para cadastro e consulta de clientes. O projeto foi desenvolvido utilizando .NET Core e SQL Server.
+O **UniversoMob** é um sistema simples para cadastro e consulta de clientes, desenvolvido como uma solução proposta pelo Gerente da área. O projeto foi construído utilizando **.NET Core** e **SQL Server**, com foco em simplicidade e eficiência.
+
+### Funcionalidades Atuais
+- Cadastro de clientes.
+- Consulta de clientes cadastrados.
+- Informação sobre a posse de máquinas e integrações.
+
+### Melhorias Propostas
+1. **Quantificação de Máquinas e Integrações**: Além de informar se o cliente possui máquinas e integrações, incluir a quantidade de cada um.
+2. **Edição de Cadastro**: Permitir a edição dos dados dos clientes já cadastrados.
+3. **Filtro de Busca**: Implementar filtros avançados para facilitar a busca de clientes (por nome, cidade, status, etc.).
+
+---
 
 ## Tecnologias Utilizadas
-- ASP.NET Core MVC
-- Entity Framework Core
-- SQL Server
-- Bootstrap 5
+- **ASP.NET Core MVC**: Para a construção da aplicação web.
+- **Entity Framework Core**: Para o mapeamento e gerenciamento do banco de dados.
+- **SQL Server**: Como banco de dados relacional.
+- **Bootstrap 5**: Para o design responsivo e moderno da interface.
 
-## Configuração do Banco de Dados
-1. Configure a string de conexão no `appsettings.json`:
-   ```json
-   "ConnectionStrings": {
-       "DefaultConnection": "Server=SEU_SERVIDOR;Database=ClienteDB;User Id=SEU_USUARIO;Password=SUA_SENHA;"
-   }
-   ```
-2. Execute a migração para criar as tabelas no banco:
-   ```sh
-   dotnet ef migrations add InitialCreate
-   dotnet ef database update
-   ```
+---
 
-## Como Executar o Projeto
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/cliente-manager.git
-   ```
-2. Acesse a pasta do projeto:
-   ```sh
-   cd cliente-manager
-   ```
-3. Execute o projeto:
-   ```sh
-   dotnet run
-   ```
-4. Acesse no navegador:
-   ```
-   http://localhost:5000
-   ```
-
-## Estrutura do Projeto
-```
 📂 ClienteMob
  ├── 📂 Controllers
- │   ├── ClienteController.cs
+ │   ├── ClienteController.cs       # Controlador para gerenciar clientes
  │
  ├── 📂 Models
- │   ├── Cliente.cs
+ │   ├── Cliente.cs                 # Modelo de dados do cliente
  │
  ├── 📂 Views
  │   ├── 📂 Cliente
- │   │   ├── Index.cshtml
+ │   │   ├── Index.cshtml           # Página principal de listagem de clientes
  │   ├── 📂 Shared
- │   │   ├── _Layout.cshtml
+ │   │   ├── _Layout.cshtml         # Layout base da aplicação
  │
- ├── appsettings.json
- ├── Program.cs
- ├── Startup.cs
- └── README.md
-```
+ ├── appsettings.json               # Configurações da aplicação
+ ├── Program.cs                     # Ponto de entrada da aplicação
+ ├── Startup.cs                     # Configurações de inicialização
+ └── README.md                      # Documentação do projeto
 
 
-## Licença
-Este projeto está sob a licença MIT.
+ ![image](https://github.com/user-attachments/assets/31145b83-0fbe-483d-a251-01e661ba59dc)
