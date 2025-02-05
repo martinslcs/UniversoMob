@@ -21,23 +21,4 @@ O **UniversoMob** é um sistema simples para cadastro e consulta de clientes, de
 
 ---
 
-📂 ClienteMob
- ├── 📂 Controllers
- │   ├── ClienteController.cs       # Controlador para gerenciar clientes
- │
- ├── 📂 Models
- │   ├── Cliente.cs                 # Modelo de dados do cliente
- │
- ├── 📂 Views
- │   ├── 📂 Cliente
- │   │   ├── Index.cshtml           # Página principal de listagem de clientes
- │   ├── 📂 Shared
- │   │   ├── _Layout.cshtml         # Layout base da aplicação
- │
- ├── appsettings.json               # Configurações da aplicação
- ├── Program.cs                     # Ponto de entrada da aplicação
- ├── Startup.cs                     # Configurações de inicialização
- └── README.md                      # Documentação do projeto
-
-
  ![image](https://github.com/user-attachments/assets/31145b83-0fbe-483d-a251-01e661ba59dc)
